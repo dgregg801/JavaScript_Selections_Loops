@@ -56,7 +56,7 @@ for (let i = 1; i <= 100; i++) {
 
 //Exercise 4
 
-let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
+/*let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 
 for (i = 0; i <= n; i++) {
@@ -65,5 +65,27 @@ for (i = 0; i <= n; i++) {
   } else ( i == 0 );
     console.log ( "Did not find value");
 }
+*/
+
+//Exercise 5
+let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1); // creates a random number between 1 and 10
+let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1); // creates a random number between 1 and 10
+let start = Math.round(Math.random() * (10 - 1) + 1); // creates a random number between 1 and 10
+let end = Math.round(Math.random() * (1000 - 100) + 100); // creates a random number between 100 and 1000
+
+
+
+for (let i = start; i <= end; i++) {
+  console.log(i);
+  
+      if ( i == fizzDivisor, i <= 10, i++) {
+    console.log("FIZZ");
+    } else (i == buzzDivisor); {
+          console.log("BUZZ");
+    } 
+      
+}
+  
+
   
 
